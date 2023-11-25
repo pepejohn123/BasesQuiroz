@@ -1,0 +1,24 @@
+{
+  artistarola as var(func: type(Artist), orderdesc: name, first: 2) {
+      name
+      publishes {
+        contains {
+          longest as length
+        }
+        total as avg(val(longest))
+      }
+      maxmax as max(val(total))
+    }
+        
+orasi(func: uid(artistarola) ,orderdesc: val(maxmax), first: 2) {
+    name
+    total : val(maxmax)
+    publishes {
+      name
+      contains(orderdesc: val(maxmax), first: 2) {
+      name
+      lenght
+    		}    
+			}
+ 	 }
+}

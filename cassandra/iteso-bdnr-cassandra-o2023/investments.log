@@ -1,0 +1,208 @@
+2023-11-15 18:31:31,708 [INFO] root: Connecting to Cluster
+2023-11-15 18:31:31,710 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:31:31,713 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:31:31,715 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:31:31,722 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:31:31,738 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:31:31,742 [INFO] root: Creating model schema
+2023-11-15 18:31:34,492 [INFO] root: Retrieving potential clients
+2023-11-15 18:31:34,494 [ERROR] cassandra.cluster: Error preparing query:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3088, in cassandra.cluster.Session.prepare
+  File "cassandra/cluster.py", line 4920, in cassandra.cluster.ResponseFuture.result
+cassandra.InvalidRequest: Error from server: code=2200 [Invalid query] message="ORDER BY is only supported when the partition key is restricted by an EQ or an IN."
+2023-11-15 18:32:10,398 [INFO] root: Connecting to Cluster
+2023-11-15 18:32:10,400 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:32:10,403 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:32:10,405 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:32:10,414 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:32:10,443 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:32:10,446 [INFO] root: Creating model schema
+2023-11-15 18:32:12,298 [INFO] root: Retrieving potential clients
+2023-11-15 18:32:12,300 [ERROR] cassandra.cluster: Error preparing query:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3088, in cassandra.cluster.Session.prepare
+  File "cassandra/cluster.py", line 4920, in cassandra.cluster.ResponseFuture.result
+cassandra.InvalidRequest: Error from server: code=2200 [Invalid query] message="table most_car_rental_potential does not exist"
+2023-11-15 18:33:01,786 [INFO] root: Connecting to Cluster
+2023-11-15 18:33:01,788 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:33:01,791 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:33:01,793 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:33:01,799 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:33:01,817 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:33:01,821 [INFO] root: Creating model schema
+2023-11-15 18:33:05,173 [INFO] root: Retrieving potential clients
+2023-11-15 18:33:05,175 [ERROR] cassandra.cluster: Error preparing query:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3088, in cassandra.cluster.Session.prepare
+  File "cassandra/cluster.py", line 4920, in cassandra.cluster.ResponseFuture.result
+cassandra.InvalidRequest: Error from server: code=2200 [Invalid query] message="ORDER BY is only supported when the partition key is restricted by an EQ or an IN."
+2023-11-15 18:34:13,128 [INFO] root: Connecting to Cluster
+2023-11-15 18:34:13,130 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:34:13,133 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:34:13,135 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:34:13,141 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:34:13,159 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:34:13,207 [INFO] root: Creating model schema
+2023-11-15 18:34:16,828 [INFO] root: Retrieving FLIGHTS
+2023-11-15 18:34:16,831 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: flights, statement keyspace: flights, statement id: 7de4b2a9af2e0f9656f307bc3fae82d3
+2023-11-15 18:34:44,139 [INFO] root: Connecting to Cluster
+2023-11-15 18:34:44,141 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:34:44,147 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:34:44,149 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:34:44,157 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:34:44,181 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:34:44,185 [INFO] root: Creating model schema
+2023-11-15 18:34:45,970 [INFO] root: Retrieving FLIGHTS
+2023-11-15 18:34:50,832 [INFO] root: Retrieving potential clients
+2023-11-15 18:34:50,835 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: flights, statement keyspace: flights, statement id: 0a016e8dc511df9f4a88b2b51d6a9779
+2023-11-15 18:34:52,977 [INFO] root: Retrieving potential clients
+2023-11-15 18:35:25,737 [INFO] root: Connecting to Cluster
+2023-11-15 18:35:25,739 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:35:25,742 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:35:25,744 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:35:25,751 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:35:25,769 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:35:25,772 [INFO] root: Creating model schema
+2023-11-15 18:35:28,495 [INFO] root: Retrieving potential clients
+2023-11-15 18:35:28,497 [ERROR] cassandra.cluster: Error preparing query:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3088, in cassandra.cluster.Session.prepare
+  File "cassandra/cluster.py", line 4920, in cassandra.cluster.ResponseFuture.result
+cassandra.InvalidRequest: Error from server: code=2200 [Invalid query] message="Order by is currently only supported on the clustered columns of the PRIMARY KEY, got month"
+2023-11-15 18:40:15,764 [INFO] root: Connecting to Cluster
+2023-11-15 18:40:15,765 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:40:15,768 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:40:15,769 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:40:15,776 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:40:15,796 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:40:15,800 [INFO] root: Creating model schema
+2023-11-15 18:40:17,301 [INFO] root: Retrieving potential clients
+2023-11-15 18:43:14,650 [INFO] root: Connecting to Cluster
+2023-11-15 18:43:14,651 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:43:14,654 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:43:14,656 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:43:14,663 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:43:14,681 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:43:14,685 [INFO] root: Creating model schema
+2023-11-15 18:43:19,424 [INFO] root: Retrieving potential clients
+2023-11-15 18:44:01,471 [INFO] root: Connecting to Cluster
+2023-11-15 18:44:01,472 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:44:01,486 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:44:01,488 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:44:01,497 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:44:01,513 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:44:01,517 [INFO] root: Creating model schema
+2023-11-15 18:44:02,912 [INFO] root: Retrieving potential clients
+2023-11-15 18:44:02,916 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: flights, statement keyspace: flights, statement id: b82dc4eaa6f9ec6d59e72b4096b1653f
+2023-11-15 18:44:28,288 [INFO] root: Connecting to Cluster
+2023-11-15 18:44:28,289 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 18:44:28,296 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:44:28,298 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 18:44:28,308 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 18:44:28,326 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 18:44:28,330 [INFO] root: Creating model schema
+2023-11-15 18:44:30,360 [INFO] root: Retrieving potential clients
+2023-11-15 21:02:57,071 [INFO] root: Connecting to Cluster
+2023-11-15 21:02:57,072 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:02:57,075 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:02:57,076 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:02:57,083 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:02:57,107 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:02:57,161 [INFO] root: Creating model schema
+2023-11-15 21:04:42,978 [INFO] root: Connecting to Cluster
+2023-11-15 21:04:42,980 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:04:42,984 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:04:42,986 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:04:42,997 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:04:43,023 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:04:43,027 [INFO] root: Creating model schema
+2023-11-15 21:04:46,473 [INFO] root: Retrieving potential clients
+2023-11-15 21:04:46,477 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: flights, statement keyspace: flights, statement id: 0a016e8dc511df9f4a88b2b51d6a9779
+2023-11-15 21:05:24,851 [INFO] root: Retrieving potential clients
+2023-11-15 21:05:52,612 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:06:49,824 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:07:27,428 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:07:55,700 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:08:29,770 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:10:37,354 [INFO] root: Retrieving potential clients
+2023-11-15 21:17:46,995 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:17:54,679 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:23:39,117 [INFO] root: Connecting to Cluster
+2023-11-15 21:23:39,118 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:23:39,121 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:23:39,122 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:23:39,128 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:23:39,142 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:23:39,186 [INFO] root: Creating model schema
+2023-11-15 21:26:00,407 [INFO] root: Connecting to Cluster
+2023-11-15 21:26:00,409 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:26:00,412 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:26:00,414 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:26:00,422 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:26:00,444 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:26:00,448 [INFO] root: Creating model schema
+2023-11-15 21:26:06,224 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:26:06,227 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: flights, statement keyspace: flights, statement id: 5d21a834a21bce69e6112fc266cecfe9
+2023-11-15 21:26:57,393 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:27:29,421 [INFO] root: Retrieving potential clients
+2023-11-15 21:27:39,232 [INFO] root: Retrieving potential clients
+2023-11-15 21:29:51,968 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:30:06,882 [INFO] root: Retrieving potential clients
+2023-11-15 21:30:07,724 [INFO] root: Retrieving potential clients
+2023-11-15 21:34:41,869 [INFO] root: Connecting to Cluster
+2023-11-15 21:34:41,871 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:34:41,874 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:34:41,876 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:34:41,883 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:34:41,901 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:34:41,906 [INFO] root: Creating model schema
+2023-11-15 21:34:47,777 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:38:46,257 [INFO] root: Connecting to Cluster
+2023-11-15 21:38:46,259 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:38:46,261 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:38:46,263 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:38:46,269 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:38:46,285 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:38:46,326 [INFO] root: Creating model schema
+2023-11-15 21:45:27,037 [INFO] root: Connecting to Cluster
+2023-11-15 21:45:27,038 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:45:27,041 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:45:27,043 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:45:27,049 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:45:27,071 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:45:27,118 [INFO] root: Creating model schema
+2023-11-15 21:49:43,960 [INFO] root: Connecting to Cluster
+2023-11-15 21:49:43,961 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:49:43,965 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:49:43,966 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:49:43,972 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:49:43,986 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:49:44,049 [INFO] root: Creating model schema
+2023-11-15 21:52:03,281 [INFO] root: Connecting to Cluster
+2023-11-15 21:52:03,283 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:52:03,285 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:52:03,287 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:52:03,294 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:52:03,314 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:52:03,317 [INFO] root: Creating model schema
+2023-11-15 21:52:07,255 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:52:07,257 [ERROR] cassandra.cluster: Error preparing query:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3088, in cassandra.cluster.Session.prepare
+  File "cassandra/cluster.py", line 4920, in cassandra.cluster.ResponseFuture.result
+cassandra.InvalidRequest: Error from server: code=2200 [Invalid query] message="Cannot execute this query as it might involve data filtering and thus may have unpredictable performance. If you want to execute this query despite the performance unpredictability, use ALLOW FILTERING"
+2023-11-15 21:54:15,337 [INFO] root: Connecting to Cluster
+2023-11-15 21:54:15,338 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+2023-11-15 21:54:15,341 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:54:15,342 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2023-11-15 21:54:15,348 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-11-15 21:54:15,365 [INFO] root: Creating keyspace: flights with replication factor 1
+2023-11-15 21:54:15,408 [INFO] root: Creating model schema
+2023-11-15 21:56:12,207 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:56:12,211 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: flights, statement keyspace: flights, statement id: 7de4b2a9af2e0f9656f307bc3fae82d3
+2023-11-15 21:56:24,715 [INFO] root: Retrieving FLIGHTS
+2023-11-15 21:57:07,372 [INFO] root: Retrieving potential clients
+2023-11-15 21:57:12,285 [INFO] root: Retrieving potential clients
+2023-11-16 11:13:03,890 [WARNING] cassandra.connection: Heartbeat failed for connection (140515245448576) to 127.0.0.1:9042
+2023-11-16 11:13:03,893 [WARNING] cassandra.cluster: Host 127.0.0.1:9042 has been marked down
